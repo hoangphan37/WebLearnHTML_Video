@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.space{
+    height: 100px;
+}
+.cangiua{
+    text-align: center;
+}
+html {
+    font-family: Verdana,sans-serif;
+    scroll-behavior: smooth;
+    color: rgba(31, 36, 34, 0.5);
+}
+#main{
+    position: relative;
+}
+#header{
+    background-color: black;
+
+    width: 100%;
+    font-size: 20px;
+    position: fixed;
+    z-index: 2;
+    height: 54.55px;
+
+}
+#nav{
+    list-style-type: none;
+    display: inline-block;
+    height: 54.55px;
+    position: fixed;
+}
+#langu{
+    display: inline-block;
+    height: 100%;
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+.co{
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+.co:hover{
+    border-radius: 5px;
+}
+#nav>li{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+}
+#nav>li>a{
+    color: white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#nav li:hover {
+    background-color: rgb(61, 51, 51);
+}
+.header-li{
+    border-radius: 8px;
+   
+}
+#logo{
+    width: 54.55px;
+    height: 54.45px;
+    display: inline-block;
+}
+#img-logo{
+    width: 54.55px;
+    height: 54.45px;
+    border-radius: 8px;
+    
+}
+#menu-header{
+    
+    position: fixed;
+    width: 250px;
+    height: 195px;
+    top:0;
+    left: 0;
+    margin-top: 54.55px;
+
+    display: none;
+}
+#menu-header>ul>li>a{
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 0 5px 20px;
+    border-bottom: 3px solid white;
+}
+#menu-header>ul>li{
+    background-color: #282a35;
+    border-bottom: 10px;
+    border-bottom-right-radius: 20px;
+}
+#menu-header>ul>li:hover{
+    background-color: rgba(26, 189, 40,1);
+}
+.ti-menu{
+    font-size: 30px;
+   ;position: absolute;
+   top :17%;
+   left: 20%;
+ 
+}
+
+
+
+
+
+#left{
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+    overflow: scroll;
+    scrollbar-color: #000;
+    background-color: #E7E9EB;
+    padding-top: 60px;
+}
+
+.li1 li {
+    font-size: 20px;
+}
+.li1 li:hover{
+    background-color: rgb(156, 184, 184);
+}
+
+.left-coban-ul li{
+    width: 100%;
+}
+
+.li1{
+    color: black;
+    display: block;
+}
+.li1:hover .tieude-li{
+    background-color: rgb(156, 184, 184);
+    cursor: pointer;
+}
+.tieude-li{
+    color:  rgb(26, 189, 40);
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+.li1>a{
+    text-decoration: none;
+    display: block;
+    color: #000;
+    width: 100%;
+}
+.li2 {
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.li2>a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding-left: 20px;
+}
+#left-coban-ul1 {
+    
+}
+#left-coban-ul2{
+    display: none;
+}
+
+
+#right{
+    margin-left: 250px;
+    height: 100000px;
+    color: #000;
+    font-size: 18px;
+}
+.khainiem{
+    padding-top: 30px;
+}
+#text-header{
+    font-size: 50px;
+}
+.right-item{
+    padding-top: 30px;
+}
+.box-right{
+    background-color: #E7E9EB;
+    margin: 20px;
+    border-left: 5px solid rgb(26, 189, 40);
+    border-radius: 10px;
+}
+.box-right p{
+    padding: 20px;
+}
+
+#right h2{
+    color: rgb(26, 189, 40);
+}
+#right h1{
+    color: rgb(26, 189, 40);
+}
+
+
+
+
+
+#ti-menu1{
+    margin-top: 70px;
+    position: fixed;
+    background-color: rgba(26, 189, 40,0.5);
+    border-radius: 8px;
+    display: none;
+}
+.ti-angle-double-right{
+    padding: 10px 10px;
+    display: block;
+    font-size: 23px;
+}
+
+.ti-angle-double-left{
+    padding: 10px 10px;
+    display: block;
+    font-size: 23px;
+}
+#ti-menu2{
+    margin-top: 70px;
+    margin-left: 250px;
+    position: fixed;
+    background-color: rgba(26, 189, 40,0.5);
+    border-radius: 8px;
+    display: none;
+}
+#ti-menu{
+    color: rgb(255, 255, 255);
+    background-color: rgba(26, 189, 40,1);
+    display: inline-block;
+    height: 100%;
+    width: 54.55px;
+    border-radius:8px;
+    position: absolute;
+    display: none;
+}
+#ti-menu:hover{
+    background-color: rgba(26, 189, 40,0.5);
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+@media (max-width: 800px) {
+    #left{
+        display: none;
+    }
+
+    #right{
+        margin-left: 5px;
+    }
+    #ti-menu1{
+        display: block;
+    }
+    #nav{   
+        display: none;
+    }
+    #ti-menu{
+        display: inline-block;
+    }
+}
