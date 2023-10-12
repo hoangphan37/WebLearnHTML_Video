@@ -17,19 +17,19 @@
     }
     #futer{
         
-        margin: 200px 0px 0px 1px !important;
-        }
+    margin: 200px 0px 0px 1px !important;
+    }
 
-        #continue{
-           
-            margin-left: 30px;
-        }
-        #img-cautruc{
-            padding: 20px 0px;
-        }
-        #img-vidu{
-            padding-top: 20px !important;
-        }
+    #continue{
+        
+        margin-left: 30px;
+    }
+    #img-cautruc{
+        padding: 20px 0px;
+    }
+    #img-vidu{
+        padding-top: 20px !important;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -50,4 +50,10 @@
     margin: 200px 0px 0px 250px;
     }
     
+}
+
+@media (max-width: 360px) {
+    #conitnue-up{
+        display: none;
+    }
 }

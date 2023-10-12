@@ -127,6 +127,7 @@ html {
     scrollbar-color: #000;
     background-color: #E7E9EB;
     padding-top: 60px;
+    z-index: 1;
 }
 
 .li1 li {
